@@ -11,7 +11,9 @@ Run ```mvn package``` to generate the jar and then simply upload the jar as usin
 
 The configuration for the handler is :
 
-```com.alexaExamples.AlexaExampleLambda::myHandler```
+```
+com.alexaExamples.AlexaExampleLambda::myHandler
+```
 
 Now just configure alexa to talk to this lambda using the instructions here :
 
