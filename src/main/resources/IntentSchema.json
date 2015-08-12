@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "intent": "MyColorIsIntent",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "WhatsMyColorIntent",
+      "slots": []
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "PriceIntent",
+      "slots": [
+        {
+          "name": "cardname",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}
